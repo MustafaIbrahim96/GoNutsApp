@@ -245,14 +245,14 @@ fun BoxQuantity(
 
         ) {
         Text(
-            modifier = Modifier.align(Alignment.Center),
+            modifier = Modifier.align(Alignment.Center).padding(bottom = 2.dp),
             text = text,
             fontSize = fontSize,
             fontFamily = Inter_Font,
             fontWeight = FontWeight.Medium,
             color = textColor,
             letterSpacing = 0.sp,
-            lineHeight = TextUnit.Unspecified
+            lineHeight = TextUnit.Unspecified,
         )
     }
 }
