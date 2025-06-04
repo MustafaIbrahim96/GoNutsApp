@@ -14,8 +14,8 @@ import com.mustafa.gonutsapp.ui.theme.GoNutsAppTheme
 fun GoNutsApp() {
     GoNutsAppTheme {
         Scaffold (contentWindowInsets = WindowInsets.systemBars){
-            //SplashScreen()
-            LetsDountsScreen()
+            SplashScreen()
+            //LetsDountsScreen()
         }
     }
 }
